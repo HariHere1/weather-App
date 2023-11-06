@@ -1,0 +1,344 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: #122F70;
+}
+.button-1{
+    width: 100px;
+    height: 100px;
+    position:relative;
+    top: 10px;
+    margin: 50px;
+}
+.today{
+    background-color: white;
+    border: none;
+    border-radius: 22px;
+    width: 87px;
+    height: 38px;
+    color: darkblue;
+    font-family: Roboto;
+    font-weight:600;
+    font-size: 20px;
+}
+.button-2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -37px;
+    left: 110px;
+}
+.tomorrow{
+    background-color: transparent;
+    border: none;
+    width: 87px;
+    height: 38px;
+    color: white;
+    font-family: Roboto;
+    opacity: 100%;
+    font-weight:600;
+    font-size: 20px;
+}
+.button-3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -137px;
+    left: 230px;
+}
+.tendays{
+    background-color: transparent;
+    border: none;
+    width: 87px;
+    height: 38px;
+    color: white;
+    font-family: Roboto;
+    opacity: 100%;
+    font-weight:600;
+    font-size: 20px;
+}
+.display{
+    width: 1440px;
+    height: 500px;
+    background-image: url(Display\ img.jpg);
+    background-size:100%     ;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -250px;
+    border: black 1px;
+    border-color: black;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.search-bar{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -230px;
+    left: 920px;
+}
+.search{
+    height: 40px;
+    width: 383.3px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow:0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.search-button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 5px;
+    left: 330px;
+}
+.search-icon{
+   background-color: transparent;
+    position: relative;
+    width: 26px;
+    top: -33px;
+    left: 345px;
+}
+img{
+    width: 30px;
+}
+.text-1{
+    color: white;
+    position: relative;
+    top: 460px;
+    left: 15px;
+    border-style: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 22px;
+}
+.celsius{
+    position: relative;
+    top: 290px;
+    left: 8px;
+    color: white;
+    font-family:  'Barlow Condensed';
+    font-weight: 400;
+    font-size: 70px;
+    height: 114px;
+}
+.weather-image{
+    position: relative;
+    top: 80px;
+    left: 15px;
+    border-style: none;
+
+}
+.day{
+    color: white;
+    position: relative;
+    top: 125px;
+    text-align: right;
+    right: 35px;
+    border-style: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 22px;
+}
+.time{
+    color: white;
+    position: relative;
+    top: 25px;
+    text-align: right;
+    right: 35px;
+    border-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+}
+.rectangle-4{
+    width: 680px;
+    height: 300px;
+    position: relative;
+    top: -230px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+.sunset{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    position: relative;
+    top: 45px;
+    left: 520px;
+}
+.time-2{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    position: relative;
+    top: 30px;
+    left: 522px;
+}
+.sunset-img{
+    width: 50px;
+    background-color: transparent;
+    position: relative;
+    top: -37px;
+    left: 450px;
+}
+.sunrise-img{
+    width: 50px;
+    background-color: transparent;
+    position: relative;
+    top: 120px;
+    left: 395px;
+}
+.sunrise{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    position: relative;
+    top: 60px;
+    left: 520px;
+}
+.time-3{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    position: relative;
+    top: 40px;
+    left: 522px;
+}
+.vertical-line {
+    background: rgba(0, 0, 0, 0.12);
+    border-left: 2px solid; 
+    height: 250px;
+    width: 1px;
+    margin: 0 auto; 
+    position: relative;
+    top: -200px;
+  }
+.humidity-img{
+    width: 50px;
+    background-color: transparent;
+    position: relative;
+    top: -450px;
+    left: 20px;
+}
+.humidity{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    position: relative;
+    top: -520px;
+    left: 90px;
+
+}
+.hum-per{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    position: relative;
+    top: -540px;
+    left: 90px;
+
+}
+.wind-speed{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    position: relative;
+    top: -480px;
+    left: 90px;
+}
+.wind-value{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    position: relative;
+    top: -495px;
+    left: 90px;
+
+}
+.wind-img{
+    position: relative;
+    width: 35px ;
+    top: -420px;
+    left: 40px;
+}
+.rectangle-5{
+    width: 680px;
+    height: 230px;
+    position: relative;
+    top: -180px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #03165B 0%, #3F5AB7 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rainfall{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: 70px;
+    left: 80px;
+
+}
+.rain-per{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: 80px;
+    left: 110px;  
+}
+.this-year{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: -16px;
+    left: 450px;
+}
+.percentage{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: -10px;
+    left: 470px; 
+}
+.rectangle-6{
+    background-color: white;
+    border-radius: 12px;
+    width: 702px;
+    height: 590px;
+    position: relative;
+    top:-777px;
+    left: 730px;
+    flex-shrink: 0;
+}
+.weather-2{
+    background-color: rgb(0, 183, 255);
+    border-radius: 12px;
+    width: 200px;
+    height: 290px;
+    position: relative;
+    top:20px;
+    left: 30px;
+    flex-shrink: 0;
+}
