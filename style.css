@@ -282,7 +282,7 @@ body{
     left: 290px;
 }
         
-    @media screen and  (max-width: 400px){
+    @media screen and  (max-width: 480px){
 
 body{
     padding:0px ;
