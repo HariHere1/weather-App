@@ -1,8 +1,13 @@
 body{
     padding: 0;
     margin:0;
+    overflow-x: hidden;
     background-color: #122F70;
 }
+*{
+    box-sizing: border-box;
+}
+
 .button-1{
     width: 100px;
     height: 100px;
@@ -96,13 +101,13 @@ body{
 .search-button{
     background: transparent;
     width: 40px;
-    border: none;
+    border:none ;
     height: 40px;
     position: absolute;
     top: 0px;
     left: 335px;
     background:url(search-icon.png);
-    image-orientation:20px ;
+    background-size: contain;;
 }
 .search-img{
     width: 30px;
@@ -159,7 +164,7 @@ body{
     font-size: 32px;
 }
 .rectangle-4{
-    width: 680px;
+    width: 1440px;
     height: 300px;
     position: relative;
     top: -230px;
@@ -173,8 +178,8 @@ body{
     font-weight: bold;
     background-color: transparent;
     position: relative;
-    top: 45px;
-    left: 520px;
+    top: 46px;
+    left: 920px;
 }
 .time-2{
     font-family: 'Roboto Condensed',sans-serif;
@@ -183,21 +188,21 @@ body{
     background-color: transparent;
     position: relative;
     top: 30px;
-    left: 522px;
+    left: 922px;
 }
 .sunset-img{
     width: 50px;
     background-color: transparent;
     position: relative;
     top: -37px;
-    left: 450px;
+    left: 850px;
 }
 .sunrise-img{
     width: 50px;
     background-color: transparent;
     position: relative;
     top: 120px;
-    left: 395px;
+    left: 800px;
 }
 .sunrise{
     font-family: 'Roboto Condensed',sans-serif;
@@ -206,7 +211,7 @@ body{
     background-color: transparent;
     position: relative;
     top: 60px;
-    left: 520px;
+    left: 920px;
 }
 .time-3{
     font-family: 'Roboto Condensed',sans-serif;
@@ -215,23 +220,24 @@ body{
     background-color: transparent;
     position: relative;
     top: 40px;
-    left: 522px;
+    left: 922px;
 }
 .vertical-line {
     background: rgba(0, 0, 0, 0.12);
     border-left: 2px solid; 
-    height: 250px;
+    height: 255px;
     width: 1px;
     margin: 0 auto; 
     position: relative;
-    top: -200px;
+    top: -210px;
+    left: -60px;
   }
 .humidity-img{
     width: 50px;
     background-color: transparent;
     position: relative;
     top: -450px;
-    left: 20px;
+    left: 220px;
 }
 .humidity{
     font-family: 'Roboto Condensed',sans-serif;
@@ -240,7 +246,7 @@ body{
     background-color: transparent;
     position: relative;
     top: -520px;
-    left: 90px;
+    left: 290px;
 
 }
 .hum-per{
@@ -250,98 +256,14 @@ body{
     background-color: transparent;
     position: relative;
     top: -540px;
-    left: 90px;
+    left: 290px;
 
 }
-.uv-index{
-    font-family: 'Roboto Condensed',sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: transparent;
-    position: relative;
-    top: -495px;
-    left: 90px;
-}
-.uv-per{
-    font-family: 'Roboto Condensed',sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    background-color: transparent;
-    position: relative;
-    top: -515px;
-    left: 90px;
-
-}
-.uv-image{
-    position: relative;
-    top: -430px;
-    left: 30px;
-}
-.rectangle-5{
-    width: 680px;
-    height: 230px;
-    position: relative;
-    top: -180px;
-    border-radius: 12px;
-    background: linear-gradient(180deg, #03165B 0%, #3F5AB7 100%);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.rainfall{
-    font-family: 'Roboto Condensed',sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    background-color: transparent;
-    position: relative;
-    top: 70px;
-    left: 80px;
-
-}
-.rain-per{
-    font-family: 'Roboto Condensed',sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    background-color: transparent;
-    position: relative;
-    top: 80px;
-    left: 110px;  
-}
-.this-year{
-    font-family: 'Roboto Condensed',sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    background-color: transparent;
-    position: relative;
-    top: -16px;
-    left: 450px;
-}
-.percentage{
-    font-family: 'Roboto Condensed',sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    background-color: transparent;
-    position: relative;
-    top: -10px;
-    left: 470px; 
-}
-.rectangle-6{
-    background-color: white;
-    border-radius: 12px;
-    width: 702px;
-    height: 590px;
-    position: relative;
-    top:-777px;
-    left: 730px;
-    flex-shrink: 0;
-} 
 .wind-img{
     width: 50px;
     position: absolute;
     top: 200px;
-    left: 20px;
+    left: 220px;
 }
 .wind-speed{
     font-family: 'Roboto Condensed',sans-serif;
@@ -349,7 +271,7 @@ body{
     font-weight: bold;
     position: absolute;
     top: 185px;
-    left: 90px;
+    left: 290px;
 }
 .wind-value{
     font-family: 'Roboto Condensed',sans-serif;
@@ -357,5 +279,12 @@ body{
     font-weight: bold;
     position: absolute;
     top: 215px;
-    left: 90px;
+    left: 290px;
+}
+@media (max-width: 1366px) {
+    body {
+        font-size: 14px; 
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 }
