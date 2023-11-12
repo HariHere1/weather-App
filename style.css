@@ -279,6 +279,15 @@ body{
     top: 215px;
     left: 290px;
 }
+.weather-image-day{
+    height: 40px;
+    color: aliceblue;
+    position: relative;
+    top: 70px;
+    left: 13px;
+    border-style: none;
+    filter: brightness(200);
+}
         
 @media screen and (max-width: 600px) {
 body{
