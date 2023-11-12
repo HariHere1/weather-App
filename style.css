@@ -5,7 +5,6 @@ body{
     background-color: #122F70;
 }
 
-
 .button-1{
     width: 100px;
     height: 100px;
@@ -14,13 +13,12 @@ body{
     margin: 50px;
 }
 .today{
-    background-color: white;
     border: none;
     border-radius: 22px;
     width: 87px;
     height: 38px;
     color: darkblue;
-    font-family: Roboto;
+    font-family:Roboto;
     font-weight:600;
     font-size: 20px;
 }
@@ -282,12 +280,12 @@ body{
     left: 290px;
 }
         
-@media screen and (max-width: 360px) and (max-height: 640px) {
+@media screen and (max-width: 600px) {
 body{
     padding:0px ;
     margin: 0px;
-    overflow-x:hidden ;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 .button-1{
     width: 10px;
@@ -300,8 +298,10 @@ body{
     color: darkblue;
     font-family: Roboto;
     position: relative;
+    top: ;
     left: -30px;
     font-size: 20px;
+    overflow: hidden;
 }
 .tomorrow{
     position: relative;
@@ -312,11 +312,18 @@ body{
     left: -20px;
 }
 .display{
-            width: 380px;
-            height:150px ;
-            position: relative;
-            left: -39px;
-        }
+    width: 380px;
+    height:150px ;
+    position: relative;
+    top: -180px;
+    left: -40px;
+}
+.weather-image{
+    width: 20px;
+    position: relative;
+    top: 70px;
+    left: 9px;
+}
 .text-1{
     position: relative;
     top: 130px;
@@ -333,14 +340,14 @@ body{
     font-size: 10px;
     position: relative;
     top: 79px;
-    left: -15px;
+    left: -10px;
     font-family: Inter;
 }
 .time{
     font-size: 10px;
     position: relative;
-    top: 43px;  
-    left: -15px;
+    top: 45px;  
+    left: -10px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 10px;
 }
@@ -348,12 +355,14 @@ body{
     width: 380px;
     height: 150px;
     position: relative;
-    left: -39px;
+    top: -130px;
+    left: -40px;
+    overflow: hidden;
 }
 .search-bar{
     position: relative;
-    top: -190px;
-    left: -10px;
+    top: -150px;
+    left: -15px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -379,7 +388,7 @@ body{
     font-weight: bold;
     background-color: transparent;
     position: relative;
-    top: 20px;
+    top: 5px;
     left: 290px;
 }
 .time-2{
@@ -387,14 +396,14 @@ body{
         font-size: 12px;
         background-color: transparent;
         position: relative;
-        top: 5px;
+        top: -9px;
         left: 290px;
 }
 .sunset-img{
     width: 40px;
     background-color: transparent;
     position: relative;
-    top: -45px;
+    top: -60px;
     left: 240px;
 }
 .sunrise{
@@ -403,8 +412,8 @@ body{
     font-weight: bold;
     background-color: transparent;
     position: relative;
-    top: -20px;
-    left:290px;
+    top: -30px;
+    left:293px;
 }
 .sunrise-img{
     width: 35px;
@@ -415,11 +424,11 @@ body{
 }
 .time-3{
     font-family: 'Roboto Condensed',sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     background-color: transparent;
     position: relative;
-    top: -35px;
-    left: 290px;
+    top: -45px;
+    left: 293px;
 }
 .vertical-line{
     background: rgba(0, 0, 0, 0.12);
@@ -428,14 +437,14 @@ body{
     width: 1px;
     margin: 0 auto; 
     position: relative;
-    top:-170px;
-    left: 5px;
+    top:-185px;
+    left: 6px;
 }
 .humidity-img{
     width: 35px;
     background-color: transparent;
     position: relative;
-    top: -285px;
+    top: -300px;
     left: 15px;
 }
 .humidity{
@@ -444,7 +453,7 @@ body{
     font-weight: bold;
     background-color: transparent;
     position: relative;
-    top: -336px;
+    top: -356px;
     left: 55px;
 }
 .hum-per{
@@ -453,29 +462,27 @@ body{
     font-weight: bold;
     background-color: transparent;
     position: relative;
-    top: -354px;
+    top: -370px;
     left: 55px;
 }
 .wind-img{
-    width: 35px;
+    width: 30px;
     position: absolute;
-    top: 90px;
-    left: 15px;
+    top: 105px;
+    left: 18px;
 }
 .wind-speed{
     font-family: 'Roboto Condensed',sans-serif;
     font-size: 15px;
-    font-weight: bold;
     position: absolute;
-    top: 75px;
+    top: 87px;
     left: 55px;
 }
 .wind-value{
     font-family: 'Roboto Condensed',sans-serif;
     font-size: 15px;
-    font-weight: bold;
     position: absolute;
-    top: 90px;
+    top: 105px;
     left: 55px;
 }
 
