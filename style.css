@@ -298,17 +298,19 @@ body{
     color: darkblue;
     font-family: Roboto;
     position: relative;
-    top: ;
+    top: 20px;
     left: -30px;
     font-size: 20px;
     overflow: hidden;
 }
 .tomorrow{
     position: relative;
+    top: 20px;
     left: -20px;
 }
 .tendays{
     position: relative;
+    top: 20px;
     left: -20px;
 }
 .display{
