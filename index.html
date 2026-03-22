@@ -1,52 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Inter|Barlow+Condesed|Roboto+Condensed:regular|Roboto+Condensed:medium">
-    <title>Weather App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&family=Inter:wght@400;600&family=Roboto+Condensed:wght@400;600&display=swap">
 </head>
 <body>
-  
-    <div class="button-1">
-        <a href="">
-            <button class="today" onmouseenter="index.html">Today</button>
-        </a>
-         <div class="button-2">
-            <button class="tomorrow" onmouseenter="">Tomorrow</button>
-        </div> 
-        <div class="button-3">
-            <button class="tendays">10 days</button>
-        </div> 
-        <div class="search-bar">
-            <input type="search" placeholder="Enter city name" size="30px" class="search">
-            <button class="search-button"></button>
-        </div>
 
-        <div class="display">
-            <h2 class="text-1">Los Angeles ,CA,USA</h2>
-            <p class="celsius">13&deg;</p>
-            <img src="nights_stay.png" alt="" class="weather-image">
-            <p class="day">Monday</p>
-            <p class="time">8:30 pm</p>
+  <div class="app-wrapper">
+
+    <!-- Top Nav -->
+    <nav class="nav">
+      <div class="nav-tabs">
+        <button class="tab active" data-tab="today">Today</button>
+        <button class="tab" data-tab="tomorrow">Tomorrow</button>
+        <button class="tab" data-tab="tendays">10 Days</button>
+      </div>
+      <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Search city..." />
+        <button class="search-btn" aria-label="Search">
+          <img src="search-icon.png" alt="Search" />
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Display Card -->
+    <div class="display-card">
+      <div class="display-left">
+        <img class="weather-icon" src="nights_stay.png" alt="Weather icon" />
+        <p class="temperature">13°</p>
+      </div>
+      <div class="display-right">
+        <h2 class="location">Los Angeles, CA, USA</h2>
+        <p class="day-name">Monday</p>
+        <p class="current-time">8:30 pm</p>
+      </div>
+    </div>
+
+    <!-- Stats Card -->
+    <div class="stats-card">
+
+      <div class="stat-group">
+        <div class="stat-item">
+          <img src="sunrise.png" alt="Sunrise" class="stat-icon" />
+          <div class="stat-info">
+            <span class="stat-label">Sunrise</span>
+            <span class="stat-value time-3">6:30 am</span>
+          </div>
         </div>
-        <div class="rectangle-4">
-            <p class="sunset">Sunset</p>
-            <p class="time-2">6:00 pm</p>
-            <img src="sunset.png" class="sunset-img">
-            <img src="sunrise.png" class="sunrise-img">
-            <p class="sunrise">Sunrise</p>
-            <p class="time-3">6:30 am</p>
-            <div class="vertical-line"></div>
-            <img src="humidity.png" class="humidity-img">
-            <p class="humidity">Humidity</p>
-            <p class="hum-per">39%</p>
-            <img src="wind-speed.png" class="wind-img">
-            <p class="wind-speed">Wind speed</p>
-            <p class="wind-value">1.5 km/h</p>
+        <div class="stat-item">
+          <img src="sunset.png" alt="Sunset" class="stat-icon" />
+          <div class="stat-info">
+            <span class="stat-label">Sunset</span>
+            <span class="stat-value time-2">6:00 pm</span>
+          </div>
         </div>
-    <script src="./index.js"></script>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="stat-group">
+        <div class="stat-item">
+          <img src="humidity.png" alt="Humidity" class="stat-icon" />
+          <div class="stat-info">
+            <span class="stat-label">Humidity</span>
+            <span class="stat-value hum-per">39%</span>
+          </div>
+        </div>
+        <div class="stat-item">
+          <img src="wind-speed.png" alt="Wind Speed" class="stat-icon" />
+          <div class="stat-info">
+            <span class="stat-label">Wind Speed</span>
+            <span class="stat-value wind-value">1.5 km/h</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
